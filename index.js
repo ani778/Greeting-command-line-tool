@@ -36,4 +36,3 @@ if (level === 1) {
 } else {
     console.log(chalk.red('Invalid verbosity level. Please specify 1 or 2.'));
 }
-
