@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-// const { program } = require('commander');
 import { program } from 'commander';
 import chalk from 'chalk';
 
@@ -13,7 +12,6 @@ program
     .option('-g, --greeting <type>', 'custom greeting message', 'Hello')
     .parse(process.argv)
 
-// console.log(program.opts())
 const options = program.opts();
 const name = options.name ;
 const level =parseInt(options.level || options.lvl, 10);
